@@ -57,6 +57,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New :doc:`misc-functions-in-struct
+  <clang-tidy/checks/misc-functions-in-struct>` check.
+
+  FIXME: add release notes.
+
 The improvements are...
 
 Improvements to include-fixer

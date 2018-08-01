@@ -11,6 +11,7 @@
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
 #include "DefinitionsInHeadersCheck.h"
+#include "FunctionsInStructCheck.h"
 #include "MisplacedConstCheck.h"
 #include "NewDeleteOverloadsCheck.h"
 #include "NonCopyableObjects.h"
@@ -30,6 +31,8 @@ namespace misc {
 class MiscModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
+    CheckFactories.registerCheck<FunctionsInStructCheck>(
+        "misc-functions-in-struct");
     CheckFactories.registerCheck<MisplacedConstCheck>("misc-misplaced-const");
     CheckFactories.registerCheck<UnconventionalAssignOperatorCheck>(
         "misc-unconventional-assign-operator");
