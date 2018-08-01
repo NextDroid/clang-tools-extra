@@ -57,6 +57,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New :doc:`misc-class-member-data-access-check
+  <clang-tidy/checks/misc-class-member-data-access-check>` check.
+
+  FIXME: add release notes.
+
 The improvements are...
 
 Improvements to include-fixer
