@@ -57,6 +57,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New :doc:`misc-class-inherit-from-struct
+  <clang-tidy/checks/misc-class-inherit-from-struct>` check.
+
+  FIXME: add release notes.
+
 The improvements are...
 
 Improvements to include-fixer
