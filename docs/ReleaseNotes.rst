@@ -57,6 +57,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New :doc:`misc-public-struct-members
+  <clang-tidy/checks/misc-public-struct-members>` check.
+
+  FIXME: add release notes.
+
 The improvements are...
 
 Improvements to include-fixer
