@@ -539,6 +539,11 @@ extern volatile int MPIModuleAnchorSource;
 static int LLVM_ATTRIBUTE_UNUSED MPIModuleAnchorDestination =
     MPIModuleAnchorSource;
 
+extern volatile int NextdroidModuleAnchorSource;
+static int LLVM_ATTRIBUTE_UNUSED NextdroidModuleAnchorDestination =
+    NextdroidModuleAnchorSource;
+
+
 // This anchor is used to force the linker to link the PerformanceModule.
 extern volatile int PerformanceModuleAnchorSource;
 static int LLVM_ATTRIBUTE_UNUSED PerformanceModuleAnchorDestination =

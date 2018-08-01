@@ -18,6 +18,7 @@ add_clang_library(clangTidyPlugin
   clangTidyMiscModule
   clangTidyModernizeModule
   clangTidyMPIModule
+  clangTidyNextdroidModule
   clangTidyObjCModule
   clangTidyPerformanceModule
   clangTidyPortabilityModule

@@ -191,6 +191,7 @@ Clang-Tidy Checks
    modernize-use-using
    mpi-buffer-deref
    mpi-type-mismatch
+   nextdroid-virtual-shadowing
    objc-avoid-nserror-init
    objc-avoid-spinlock
    objc-forbidden-subclassing
