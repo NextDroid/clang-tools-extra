@@ -158,6 +158,7 @@ Clang-Tidy Checks
    misc-non-copyable-objects
    misc-redundant-expression
    misc-static-assert
+   misc-struct-inheritance
    misc-throw-by-value-catch-by-reference
    misc-unconventional-assign-operator
    misc-uniqueptr-reset-release

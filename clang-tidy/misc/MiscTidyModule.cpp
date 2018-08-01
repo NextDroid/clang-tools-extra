@@ -16,6 +16,7 @@
 #include "NonCopyableObjects.h"
 #include "RedundantExpressionCheck.h"
 #include "StaticAssertCheck.h"
+#include "StructInheritanceCheck.h"
 #include "ThrowByValueCatchByReferenceCheck.h"
 #include "UnconventionalAssignOperatorCheck.h"
 #include "UniqueptrResetReleaseCheck.h"
@@ -31,6 +32,8 @@ class MiscModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
     CheckFactories.registerCheck<MisplacedConstCheck>("misc-misplaced-const");
+    CheckFactories.registerCheck<StructInheritanceCheck>(
+        "misc-struct-inheritance");
     CheckFactories.registerCheck<UnconventionalAssignOperatorCheck>(
         "misc-unconventional-assign-operator");
     CheckFactories.registerCheck<DefinitionsInHeadersCheck>(

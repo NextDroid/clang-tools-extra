@@ -57,6 +57,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New :doc:`misc-struct-inheritance
+  <clang-tidy/checks/misc-struct-inheritance>` check.
+
+  FIXME: add release notes.
+
 The improvements are...
 
 Improvements to include-fixer
