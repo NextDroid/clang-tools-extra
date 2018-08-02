@@ -10,13 +10,17 @@
 #include "../ClangTidy.h"
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
+#include "ClassInheritFromStructCheck.h"
 #include "ClassMemberDataAccessCheckCheck.h"
 #include "DefinitionsInHeadersCheck.h"
+#include "FunctionsInStructCheck.h"
 #include "MisplacedConstCheck.h"
 #include "NewDeleteOverloadsCheck.h"
 #include "NonCopyableObjects.h"
+#include "PublicStructMembersCheck.h"
 #include "RedundantExpressionCheck.h"
 #include "StaticAssertCheck.h"
+#include "StructInheritanceCheck.h"
 #include "ThrowByValueCatchByReferenceCheck.h"
 #include "UnconventionalAssignOperatorCheck.h"
 #include "UniqueptrResetReleaseCheck.h"
@@ -32,9 +36,18 @@ namespace misc {
 class MiscModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
+
+    CheckFactories.registerCheck<ClassInheritFromStructCheck>(
+        "misc-class-inherit-from-struct");
     CheckFactories.registerCheck<ClassMemberDataAccessCheckCheck>(
         "misc-class-member-data-access-check");
+    CheckFactories.registerCheck<FunctionsInStructCheck>(
+        "misc-functions-in-struct");
     CheckFactories.registerCheck<MisplacedConstCheck>("misc-misplaced-const");
+    CheckFactories.registerCheck<PublicStructMembersCheck>(
+        "misc-public-struct-members");
+    CheckFactories.registerCheck<StructInheritanceCheck>(
+        "misc-struct-inheritance");
     CheckFactories.registerCheck<UnconventionalAssignOperatorCheck>(
         "misc-unconventional-assign-operator");
     CheckFactories.registerCheck<DefinitionsInHeadersCheck>(
