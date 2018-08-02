@@ -63,6 +63,8 @@ Improvements to clang-tidy
   <clang-tidy/checks/misc-class-member-data-access-check>` check.
 - New :doc:`misc-functions-in-struct
   <clang-tidy/checks/misc-functions-in-struct>` check.
+- New :doc:`misc-public-struct-members
+  <clang-tidy/checks/misc-public-struct-members>` check.
 
 
   FIXME: add release notes.

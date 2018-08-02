@@ -17,6 +17,7 @@
 #include "MisplacedConstCheck.h"
 #include "NewDeleteOverloadsCheck.h"
 #include "NonCopyableObjects.h"
+#include "PublicStructMembersCheck.h"
 #include "RedundantExpressionCheck.h"
 #include "StaticAssertCheck.h"
 #include "ThrowByValueCatchByReferenceCheck.h"
@@ -41,6 +42,8 @@ public:
     CheckFactories.registerCheck<FunctionsInStructCheck>(
         "misc-functions-in-struct");
     CheckFactories.registerCheck<MisplacedConstCheck>("misc-misplaced-const");
+    CheckFactories.registerCheck<PublicStructMembersCheck>(
+        "misc-public-struct-members");
     CheckFactories.registerCheck<UnconventionalAssignOperatorCheck>(
         "misc-unconventional-assign-operator");
     CheckFactories.registerCheck<DefinitionsInHeadersCheck>(

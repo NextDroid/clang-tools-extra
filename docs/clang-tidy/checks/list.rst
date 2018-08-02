@@ -159,6 +159,7 @@ Clang-Tidy Checks
    misc-misplaced-const
    misc-new-delete-overloads
    misc-non-copyable-objects
+   misc-public-struct-members
    misc-redundant-expression
    misc-static-assert
    misc-throw-by-value-catch-by-reference

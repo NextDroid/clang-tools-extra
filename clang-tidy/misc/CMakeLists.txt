@@ -5,6 +5,7 @@ add_clang_library(clangTidyMiscModule
   ClassMemberDataAccessCheckCheck.cpp
   FunctionsInStructCheck.cpp
   MisplacedConstCheck.cpp
+  PublicStructMembersCheck.cpp
   UnconventionalAssignOperatorCheck.cpp
   DefinitionsInHeadersCheck.cpp
   MiscTidyModule.cpp
