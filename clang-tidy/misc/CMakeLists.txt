@@ -1,6 +1,9 @@
 set(LLVM_LINK_COMPONENTS support)
 
 add_clang_library(clangTidyMiscModule
+  ClassInheritFromStructCheck.cpp
+  ClassMemberDataAccessCheckCheck.cpp
+  FunctionsInStructCheck.cpp
   MisplacedConstCheck.cpp
   PublicStructMembersCheck.cpp
   UnconventionalAssignOperatorCheck.cpp
