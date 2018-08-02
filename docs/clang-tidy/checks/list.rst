@@ -153,6 +153,7 @@ Clang-Tidy Checks
    llvm-namespace-comment
    llvm-twine-local
    misc-class-inherit-from-struct
+   misc-class-member-data-access-check
    misc-definitions-in-headers
    misc-misplaced-const
    misc-new-delete-overloads
