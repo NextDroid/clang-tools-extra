@@ -65,6 +65,8 @@ Improvements to clang-tidy
   <clang-tidy/checks/misc-functions-in-struct>` check.
 - New :doc:`misc-public-struct-members
   <clang-tidy/checks/misc-public-struct-members>` check.
+- New :doc:`misc-struct-inheritance
+  <clang-tidy/checks/misc-struct-inheritance>` check.
 
 
   FIXME: add release notes.

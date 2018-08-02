@@ -162,6 +162,7 @@ Clang-Tidy Checks
    misc-public-struct-members
    misc-redundant-expression
    misc-static-assert
+   misc-struct-inheritance
    misc-throw-by-value-catch-by-reference
    misc-unconventional-assign-operator
    misc-uniqueptr-reset-release
