@@ -19,6 +19,7 @@ add_clang_library(clangTidyMiscModule
   UnusedAliasDeclsCheck.cpp
   UnusedParametersCheck.cpp
   UnusedUsingDeclsCheck.cpp
+  VirtualFunctionDeclarationCheck.cpp
 
   LINK_LIBS
   clangAnalysis
