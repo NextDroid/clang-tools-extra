@@ -165,6 +165,7 @@ Clang-Tidy Checks
    misc-unused-alias-decls
    misc-unused-parameters
    misc-unused-using-decls
+   misc-virtual-function-declaration
    modernize-avoid-bind
    modernize-deprecated-headers
    modernize-loop-convert

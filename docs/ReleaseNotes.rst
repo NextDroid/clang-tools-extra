@@ -57,6 +57,11 @@ The improvements are...
 Improvements to clang-tidy
 --------------------------
 
+- New :doc:`misc-virtual-function-declaration
+  <clang-tidy/checks/misc-virtual-function-declaration>` check.
+
+  FIXME: add release notes.
+
 - New :doc:`misc-class-member-data-access-check
   <clang-tidy/checks/misc-class-member-data-access-check>` check.
 
