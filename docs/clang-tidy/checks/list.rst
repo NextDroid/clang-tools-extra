@@ -155,6 +155,7 @@ Clang-Tidy Checks
    misc-class-inherit-from-struct
    misc-class-member-data-access-check
    misc-definitions-in-headers
+   misc-functions-in-struct
    misc-misplaced-const
    misc-new-delete-overloads
    misc-non-copyable-objects

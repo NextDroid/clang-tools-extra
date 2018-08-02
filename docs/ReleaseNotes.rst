@@ -61,6 +61,9 @@ Improvements to clang-tidy
   <clang-tidy/checks/misc-class-inherit-from-struct>` check.
 - New :doc:`misc-class-member-data-access-check
   <clang-tidy/checks/misc-class-member-data-access-check>` check.
+- New :doc:`misc-functions-in-struct
+  <clang-tidy/checks/misc-functions-in-struct>` check.
+
 
   FIXME: add release notes.
 
